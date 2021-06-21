@@ -1,12 +1,11 @@
-<<<<<<< HEAD
-=======
-  
->>>>>>> 4b0c044f902208e473800e3df4cfa40ca1ed6f1b
+
 name: tests-tickets
 
 on:
-  pull_request
-  
+  pull_request:
+    paths:
+      - 'tickets/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest
