@@ -13,7 +13,7 @@ import { newOrderRouter } from './routes/new';
 import { showOrderRouter } from './routes/show';
 
 const app = express();
-app.set('trust proxy', true); // for inginx to make request this is add when u use cookieSession
+app.set('trust proxy', true); // for inginx to make request this is add when u use cookieSession.
 app.use(json());
 app.use(
   cookieSession({
